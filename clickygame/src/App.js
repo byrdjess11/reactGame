@@ -17,6 +17,10 @@ class App extends Component {
         {
             name: "orange",
             value: 3
+        },
+        {
+            name: "red",
+            value: 4
         }
     ]
 }
