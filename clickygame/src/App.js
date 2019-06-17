@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Cards from "./components/Cards";
+import Navbar from "./components/Navbar";
 
 class App extends Component {
 
@@ -22,6 +23,16 @@ class App extends Component {
             name: "red",
             value: 4
         }
+        ,
+        {
+            name: "red",
+            value: 5
+        }
+        ,
+        {
+            name: "red",
+            value: 6
+        }
     ]
 }
 
@@ -29,6 +40,7 @@ class App extends Component {
     
     return (
     <div>
+    <Navbar />
     <Cards cards={this.state.cards}/>
     </div>
     );
