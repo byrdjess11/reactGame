@@ -23,16 +23,7 @@ class App extends Component {
             name: "red",
             value: 4
         }
-        ,
-        {
-            name: "red",
-            value: 5
-        }
-        ,
-        {
-            name: "red",
-            value: 6
-        }
+        
     ]
 }
 

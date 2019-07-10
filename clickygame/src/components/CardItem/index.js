@@ -7,8 +7,11 @@ export class CardItem extends Component {
         
         return (
             <div className="box container">
+        
+            
                 <p>{this.props.card.name}</p>
                 <p>{this.props.card.value}</p>
+            
             </div>
 
         )
